@@ -1,0 +1,27 @@
+{
+  "name": "nik-teaser",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render NikTeaser out/nik-teaser.mp4",
+    "render": "remotion render NikTeaser out/nik-teaser.mp4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.407",
+    "@remotion/media": "^4.0.407",
+    "@remotion/transitions": "^4.0.407",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.407"
+  }
+}
